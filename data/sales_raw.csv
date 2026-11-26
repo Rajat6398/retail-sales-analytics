@@ -1,0 +1,501 @@
+order_id,order_date,customer_id,product_id,product_name,category,city,sales_channel,quantity,unit_price,discount_pct
+ORD0001,2025-05-06,C0095,P002,Mechanical Keyboard,Accessories,Mumbai,Online,1,2102.57,0.05
+ORD0002,2025-01-16,C0030,P010,Desk Lamp,Furniture,Delhi,Online,4,1308.99,0
+ORD0003,2025-08-18,C0104,P009,Office Chair,Furniture,Delhi,Online,4,8621.4,0
+ORD0004,2025-03-21,C0098,P007,Headphones,Electronics,Jaipur,Online,3,3054.24,0.05
+ORD0005,2025-07-03,C0078,P002,Mechanical Keyboard,Accessories,Pune,Online,4,2322.32,0
+ORD0006,2025-02-10,C0107,P008,Webcam,Electronics,Jaipur,Online,1,2621.65,0.1
+ORD0007,2025-05-29,C0110,P002,Mechanical Keyboard,Accessories,Hyderabad,Online,1,2370.8,0
+ORD0008,2025-11-22,C0021,P007,Headphones,Electronics,Jaipur,Retail Store,3,3371.06,0.1
+ORD0009,2025-11-08,C0069,P004,Laptop Stand,Accessories,Hyderabad,Online,3,1225.92,0
+ORD0010,2025-11-24,C0029,P008,Webcam,Electronics,Jaipur,Online,4,2678.28,0.05
+ORD0011,2025-07-25,C0028,P004,Laptop Stand,Accessories,Jaipur,Online,1,1155.41,0.05
+ORD0012,2025-03-15,C0032,P008,Webcam,Electronics,Pune,Retail Store,4,2502.19,0.1
+ORD0013,2025-04-23,C0018,P010,Desk Lamp,Furniture,Chennai,Online,4,1511.4,0.05
+ORD0014,2025-11-18,C0088,P001,Wireless Mouse,Accessories,Lucknow,Online,1,614.64,0
+ORD0015,2025-08-28,C0071,P007,Headphones,Electronics,Delhi,Online,4,3214.91,0.15
+ORD0016,2025-02-27,C0021,P009,Office Chair,Furniture,Chennai,Online,3,8219.16,0.05
+ORD0017,2025-02-24,C0039,P005,27-inch Monitor,Electronics,Hyderabad,Online,2,15359.6,0.15
+ORD0018,2025-09-29,C0077,P006,Laptop,Electronics,,Retail Store,2,66151.46,0.15
+ORD0019,2025-06-07,C0031,P001,Wireless Mouse,Accessories,Mumbai,Online,1,622.9,0.05
+ORD0020,2025-03-06,C0061,P008,Webcam,Electronics,Bengaluru,Retail Store,1,2445.41,0.15
+ORD0021,2025-10-04,C0089,P009,Office Chair,Furniture,Hyderabad,Retail Store,4,8847.16,0
+ORD0022,2025-09-22,C0032,P007,Headphones,Electronics,Hyderabad,Online,3,3175.16,0.1
+ORD0023,2025-10-11,C0029,P006,Laptop,Electronics,Delhi,Online,1,59322.74,0.15
+ORD0024,2025-01-17,C0010,P001,Wireless Mouse,Accessories,Hyderabad,Retail Store,2,687.4,0
+ORD0025,2025-03-09,C0113,P008,Webcam,Electronics,Chennai,Online,2,2692.91,0.15
+ORD0026,2025-02-18,C0056,P008,Webcam,Electronics,Jaipur,Retail Store,4,2432.32,0
+ORD0027,2025-12-11,C0083,P007,Headphones,Electronics,Mumbai,Online,4,3278.57,0
+ORD0028,2025-05-08,C0069,P007,Headphones,Electronics,Chennai,Online,3,3042.09,0
+ORD0029,2025-08-25,C0119,P007,Headphones,Electronics,Mumbai,Retail Store,2,3071.9,0.05
+ORD0030,2025-11-30,C0108,P009,Office Chair,Furniture,Delhi,Online,1,9179.02,0
+ORD0031,2025-09-06,C0111,P004,Laptop Stand,Accessories,Lucknow,Online,2,1196.42,0.1
+ORD0032,2025-07-19,C0101,P003,USB-C Hub,Accessories,Chennai,Retail Store,4,1732.38,0
+ORD0033,2025-04-08,C0008,P007,Headphones,Electronics,Delhi,Retail Store,4,3095.91,0
+ORD0034,2025-09-02,C0110,P001,Wireless Mouse,Accessories,Bengaluru,Online,1,650.3,0.15
+ORD0035,2025-02-05,C0087,P009,Office Chair,Furniture,Hyderabad,Retail Store,1,8629.25,0
+ORD0036,2025-11-01,C0011,P002,Mechanical Keyboard,Accessories,Lucknow,Retail Store,2,2037.99,0.15
+ORD0037,2025-05-03,C0017,P005,27-inch Monitor,Electronics,Pune,Retail Store,2,13956.23,0.05
+ORD0038,2025-08-23,C0073,P006,Laptop,Electronics,Mumbai,Online,1,63201.9,0
+ORD0039,2025-05-16,C0045,P009,Office Chair,Furniture,Mumbai,Online,2,8000.14,0.15
+ORD0040,2025-08-13,C0091,P006,Laptop,Electronics,Pune,Online,3,65310.75,0
+ORD0041,2025-03-10,C0114,P009,Office Chair,Furniture,Mumbai,Online,3,8179.67,0
+ORD0042,2025-04-18,C0027,P005,27-inch Monitor,Electronics,Pune,Retail Store,3,15004.86,0.15
+ORD0043,2025-11-21,C0036,P005,27-inch Monitor,Electronics,Delhi,Online,1,14322.7,0
+ORD0044,2025-03-24,C0071,P006,Laptop,Electronics,Lucknow,Online,2,64393.01,0.05
+ORD0045,2025-10-07,C0048,P002,Mechanical Keyboard,Accessories,Bengaluru,Retail Store,1,2036.68,0
+ORD0046,2025-07-06,C0102,P003,USB-C Hub,Accessories,Delhi,Retail Store,1,1914.91,0.05
+ORD0047,2025-07-01,C0114,P004,Laptop Stand,Accessories,Lucknow,Online,2,1253.78,0
+ORD0048,2025-07-31,C0095,P004,Laptop Stand,Accessories,Jaipur,Retail Store,2,1108.76,0
+ORD0049,2025-12-26,C0112,P004,Laptop Stand,Accessories,Delhi,Retail Store,3,1124.75,0
+ORD0050,2025-06-29,C0102,P004,Laptop Stand,Accessories,Hyderabad,Online,2,1162.6,0.1
+ORD0051,2025-06-18,C0009,P001,Wireless Mouse,Accessories,Pune,Retail Store,2,626.97,0.1
+ORD0052,2025-06-19,C0015,P009,Office Chair,Furniture,Pune,Online,4,9097.36,0.15
+ORD0053,2025-02-25,,P010,Desk Lamp,Furniture,Jaipur,Retail Store,3,1421.63,0
+ORD0054,2025-10-23,C0006,P010,Desk Lamp,Furniture,Lucknow,Online,1,1330.58,0.1
+ORD0055,2025-08-09,C0086,P009,Office Chair,Furniture,Jaipur,Retail Store,2,7915.16,0.05
+ORD0056,2025-06-08,C0042,P002,Mechanical Keyboard,Accessories,Lucknow,Retail Store,3,2258.75,0.15
+ORD0057,2025-08-04,C0049,P009,Office Chair,Furniture,Bengaluru,Retail Store,2,8724.3,0
+ORD0058,2025-05-27,C0101,P007,Headphones,Electronics,Jaipur,Retail Store,1,3051.61,0.05
+ORD0059,2025-09-19,C0116,P008,Webcam,Electronics,Bengaluru,Online,4,2588.85,0
+ORD0060,2025-05-01,C0029,P005,27-inch Monitor,Electronics,Hyderabad,Online,3,14900.89,0
+ORD0061,2025-09-01,C0099,P001,Wireless Mouse,Accessories,Mumbai,Retail Store,1,661.57,0
+ORD0062,2025-09-11,C0019,P007,Headphones,Electronics,Delhi,Online,2,3148.62,0.1
+ORD0063,2025-12-23,C0007,P007,Headphones,Electronics,Hyderabad,Online,2,3209.19,0
+ORD0064,2025-12-08,C0072,P008,Webcam,Electronics,Jaipur,Retail Store,2,2612.95,0.1
+ORD0065,2025-08-17,C0096,P010,Desk Lamp,Furniture,Chennai,Retail Store,4,1488.97,0.15
+ORD0066,2025-09-24,C0031,P005,27-inch Monitor,Electronics,Pune,Retail Store,2,14464.27,0.05
+ORD0067,2025-05-20,C0115,P002,Mechanical Keyboard,Accessories,Mumbai,Online,3,2142.22,0
+ORD0068,2025-12-22,C0028,P003,USB-C Hub,Accessories,Mumbai,Retail Store,2,1700.01,0.1
+ORD0069,2025-08-27,C0027,P007,Headphones,Electronics,Lucknow,Retail Store,3,3156.88,0.15
+ORD0070,2025-07-14,C0046,P010,Desk Lamp,Furniture,Pune,Retail Store,1,1394.84,0.15
+ORD0071,2025-04-23,C0063,P007,Headphones,Electronics,Delhi,Retail Store,2,3083.74,0.1
+ORD0072,2025-08-28,C0080,P006,Laptop,Electronics,Delhi,Retail Store,4,66161.85,0
+ORD0073,2025-11-26,C0111,P010,Desk Lamp,Furniture,Chennai,Online,1,1384.01,0
+ORD0074,2025-06-17,C0042,P001,Wireless Mouse,Accessories,Jaipur,Retail Store,3,620.01,0.1
+ORD0075,2025-02-11,C0096,P005,27-inch Monitor,Electronics,Delhi,Retail Store,4,14431.11,0.05
+ORD0076,2025-01-16,C0026,P004,Laptop Stand,Accessories,Delhi,Online,1,1286.33,0
+ORD0077,2025-12-09,C0028,P004,Laptop Stand,Accessories,Chennai,Retail Store,2,1125.96,0.1
+ORD0078,2025-11-07,C0092,P006,Laptop,Electronics,Mumbai,Online,2,66600.25,0.15
+ORD0079,2025-01-14,C0074,P005,27-inch Monitor,Electronics,Lucknow,Retail Store,1,15495.02,0.15
+ORD0080,2025-12-20,C0032,P004,Laptop Stand,Accessories,Mumbai,Retail Store,1,1263.47,0.15
+ORD0081,2025-01-22,C0055,P010,Desk Lamp,Furniture,Jaipur,Online,1,1365.77,0.15
+ORD0082,2025-08-04,C0014,P009,Office Chair,Furniture,Lucknow,Retail Store,3,8938.37,0
+ORD0083,2025-04-01,C0084,P008,Webcam,Electronics,Pune,Retail Store,2,2697.26,0.1
+ORD0084,2025-05-18,C0032,P008,Webcam,Electronics,Mumbai,Retail Store,4,2526.08,0.15
+ORD0085,2025-10-19,C0049,P008,Webcam,Electronics,Jaipur,Online,2,2645.9,0.1
+ORD0086,2025-09-07,C0103,P008,Webcam,Electronics,Pune,Retail Store,3,2480.24,0
+ORD0087,2025-01-06,C0025,P005,27-inch Monitor,Electronics,Mumbai,Online,3,14538.58,0.15
+ORD0088,2025-05-04,C0083,P007,Headphones,Electronics,Chennai,Retail Store,4,3297.59,0.15
+ORD0089,2025-04-24,C0032,P001,Wireless Mouse,Accessories,Pune,Retail Store,0,640.06,0.05
+ORD0090,2025-10-09,C0090,P008,Webcam,Electronics,Chennai,Retail Store,3,2529.61,0.1
+ORD0091,2025-03-03,C0041,P005,27-inch Monitor,Electronics,Mumbai,Online,3,15013.38,0
+ORD0092,2025-05-22,C0098,P004,Laptop Stand,Accessories,Pune,Online,2,1243.12,0.1
+ORD0093,2025-07-04,C0002,P004,Laptop Stand,Accessories,Bengaluru,Retail Store,3,1138.45,0
+ORD0094,2025-05-30,C0017,P001,Wireless Mouse,Accessories,Chennai,Online,1,670.53,0.15
+ORD0095,2025-09-03,C0024,P001,Wireless Mouse,Accessories,Delhi,Retail Store,3,643.81,0.1
+ORD0096,2025-07-25,C0074,P008,Webcam,Electronics,Delhi,Online,1,2596.57,0
+ORD0097,2025-05-08,C0098,P003,USB-C Hub,Accessories,Lucknow,Online,3,1690.11,0
+ORD0098,2025-08-15,C0076,P009,Office Chair,Furniture,Lucknow,Retail Store,4,8224.4,0.1
+ORD0099,2025-02-20,C0027,P010,Desk Lamp,Furniture,Hyderabad,Retail Store,1,1500.26,0.15
+ORD0100,2025-03-30,C0021,P002,Mechanical Keyboard,Accessories,Delhi,Retail Store,2,2218.3,0
+ORD0101,2025-01-17,C0091,P008,Webcam,Electronics,Pune,Retail Store,4,2488.29,0.05
+ORD0102,2025-11-17,C0103,P002,Mechanical Keyboard,Accessories,Hyderabad,Retail Store,2,2231.61,0.05
+ORD0103,2025-05-17,C0010,P002,Mechanical Keyboard,Accessories,Delhi,Online,2,2314.97,0
+ORD0104,2025-03-05,C0039,P005,27-inch Monitor,Electronics,Lucknow,Retail Store,3,14427.38,0.1
+ORD0105,2025-02-11,C0114,P009,Office Chair,Furniture,Lucknow,Retail Store,4,8633.33,0.1
+ORD0106,2025-02-16,C0087,P010,Desk Lamp,Furniture,Delhi,Retail Store,3,1339.28,0
+ORD0107,2025-08-29,C0057,P010,Desk Lamp,Furniture,Pune,Online,1,1404.25,0
+ORD0108,2025-02-16,C0053,P010,Desk Lamp,Furniture,Jaipur,Retail Store,4,1393.28,0.1
+ORD0109,2025-07-30,C0037,P002,Mechanical Keyboard,Accessories,Lucknow,Online,2,2268.17,0.05
+ORD0110,2025-05-10,C0099,P008,Webcam,Electronics,Lucknow,Online,1,2526.48,0.05
+ORD0111,2025-01-28,C0047,P009,Office Chair,Furniture,Chennai,Retail Store,4,8075.11,0.1
+ORD0112,2025-10-09,C0037,P001,Wireless Mouse,Accessories,Chennai,Retail Store,2,611.63,0.05
+ORD0113,2025-05-03,C0040,P002,Mechanical Keyboard,Accessories,Delhi,Retail Store,1,2273.84,0.15
+ORD0114,2025-08-25,C0083,P002,Mechanical Keyboard,Accessories,Bengaluru,Retail Store,2,2357.37,0
+ORD0115,2025-09-05,C0032,P005,27-inch Monitor,Electronics,Chennai,Online,3,15614.17,0.1
+ORD0116,2025-09-18,C0018,P007,Headphones,Electronics,Mumbai,Retail Store,2,3326.1,0.15
+ORD0117,2025-05-17,C0037,P007,Headphones,Electronics,Pune,Retail Store,3,3364.12,0.15
+ORD0118,2025-09-05,C0071,P003,USB-C Hub,Accessories,Lucknow,Retail Store,4,1755.4,0.15
+ORD0119,2025-10-20,C0110,P006,Laptop,Electronics,Lucknow,Online,2,60839.07,0
+ORD0120,2025-07-17,C0102,P006,Laptop,Electronics,Bengaluru,Retail Store,4,66845.07,0.1
+ORD0121,2025-10-30,C0013,P001,Wireless Mouse,Accessories,Chennai,Online,2,632.53,0.15
+ORD0122,2025-03-15,C0084,P009,Office Chair,Furniture,Bengaluru,Online,4,-100,0
+ORD0123,2025-11-16,C0084,P008,Webcam,Electronics,Mumbai,Retail Store,3,2680.17,0.05
+ORD0124,2025-11-17,C0098,P009,Office Chair,Furniture,Chennai,Online,4,8797.46,0.05
+ORD0125,2025-11-20,C0037,P010,Desk Lamp,Furniture,Hyderabad,Online,1,1441.31,0
+ORD0126,2025-08-16,C0039,P007,Headphones,Electronics,Delhi,Online,1,3029.18,0
+ORD0127,2025-07-03,C0019,P006,Laptop,Electronics,Hyderabad,Retail Store,1,60758.42,0.05
+ORD0128,2025-03-31,C0112,P010,Desk Lamp,Furniture,Lucknow,Online,2,1305.69,0
+ORD0129,2025-08-25,C0059,P008,Webcam,Electronics,Pune,Online,2,2657.37,0
+ORD0130,2025-03-22,C0045,P008,Webcam,Electronics,Pune,Retail Store,3,2422.73,0.15
+ORD0131,2025-04-12,C0110,P005,27-inch Monitor,Electronics,Chennai,Online,4,15658.55,0.05
+ORD0132,2025-07-03,C0090,P004,Laptop Stand,Accessories,Pune,Online,4,1214.36,0.15
+ORD0133,2025-10-17,C0100,P007,Headphones,Electronics,Delhi,Retail Store,3,3386.91,0
+ORD0134,2025-06-30,C0025,P005,27-inch Monitor,Electronics,Pune,Online,2,13848.09,0.15
+ORD0135,2025-08-14,C0047,P002,Mechanical Keyboard,Accessories,Bengaluru,Online,1,2035.74,0.05
+ORD0136,2025-03-31,C0101,P005,27-inch Monitor,Electronics,Jaipur,Retail Store,3,13805.84,0.1
+ORD0137,2025-06-01,C0044,P003,USB-C Hub,Accessories,Mumbai,Retail Store,3,1871.01,0.1
+ORD0138,2025-12-13,C0051,P002,Mechanical Keyboard,Accessories,Jaipur,Online,2,2278.92,0
+ORD0139,2025-10-02,C0048,P007,Headphones,Electronics,Pune,Retail Store,1,3007.28,0.05
+ORD0140,2025-08-30,C0114,P006,Laptop,Electronics,Jaipur,Online,1,57288.24,0
+ORD0141,2025-11-29,C0018,P002,Mechanical Keyboard,Accessories,Delhi,Online,4,2167.72,0.05
+ORD0142,2025-02-19,C0069,P005,27-inch Monitor,Electronics,Bengaluru,Retail Store,4,13884.74,0
+ORD0143,2025-08-03,C0094,P008,Webcam,Electronics,Bengaluru,Retail Store,3,2636.33,0.15
+ORD0144,2025-07-28,C0036,P002,Mechanical Keyboard,Accessories,Delhi,Retail Store,4,2354.55,0.15
+ORD0145,2025-05-01,C0013,P004,Laptop Stand,Accessories,Jaipur,Retail Store,4,1268.25,0.1
+ORD0146,2025-04-08,C0109,P001,Wireless Mouse,Accessories,Chennai,Online,4,698.69,0.05
+ORD0147,2025-06-20,C0017,P004,Laptop Stand,Accessories,Hyderabad,Online,1,1150.77,0
+ORD0148,2025-04-21,C0030,P009,Office Chair,Furniture,Jaipur,Online,2,8925.75,0.15
+ORD0149,2025-03-16,C0070,P010,Desk Lamp,Furniture,Pune,Online,1,1509.21,0.05
+ORD0150,2025-01-08,C0101,P002,Mechanical Keyboard,Accessories,Hyderabad,Retail Store,1,2150.1,0
+ORD0151,2025-01-27,C0054,P001,Wireless Mouse,Accessories,Mumbai,Online,2,611.18,0.05
+ORD0152,2025-09-20,C0058,P008,Webcam,Electronics,Hyderabad,Online,4,2638.97,0.05
+ORD0153,2025-11-26,C0008,P009,Office Chair,Furniture,Chennai,Retail Store,3,9131.08,0.1
+ORD0154,2025-12-31,C0010,P007,Headphones,Electronics,Mumbai,Retail Store,1,3409.77,0.1
+ORD0155,2025-03-06,C0082,P010,Desk Lamp,Furniture,Jaipur,Retail Store,2,1349.6,0
+ORD0156,2025-09-16,C0013,P010,Desk Lamp,Furniture,Mumbai,Online,3,1423.62,0.1
+ORD0157,2025-07-31,C0059,P007,Headphones,Electronics,Lucknow,Retail Store,4,3117.53,0
+ORD0158,2025-06-10,C0048,P002,Mechanical Keyboard,Accessories,Bengaluru,Retail Store,3,2258.12,0.1
+ORD0159,2025-02-17,C0096,P002,Mechanical Keyboard,Accessories,Jaipur,Online,1,2176.02,0
+ORD0160,2025-10-15,C0086,P009,Office Chair,Furniture,Mumbai,Retail Store,1,8583.89,0.15
+ORD0161,2025-05-28,C0046,P006,Laptop,Electronics,Mumbai,Online,4,62996.07,0
+ORD0162,2025-02-25,C0072,P003,USB-C Hub,Accessories,Jaipur,Online,4,1756.83,0
+ORD0163,2025-10-15,C0105,P005,27-inch Monitor,Electronics,Delhi,Retail Store,2,15600.95,0.1
+ORD0164,2025-12-26,C0118,P001,Wireless Mouse,Accessories,Jaipur,Retail Store,2,677.29,0.05
+ORD0165,2025-10-17,C0009,P001,Wireless Mouse,Accessories,Bengaluru,Online,2,666.36,0
+ORD0166,2025-08-03,C0021,P002,Mechanical Keyboard,Accessories,Jaipur,Retail Store,2,2183.68,0.1
+ORD0167,2025-03-21,C0080,P006,Laptop,Electronics,Delhi,Online,1,58601.51,0
+ORD0168,2025-09-06,C0054,P005,27-inch Monitor,Electronics,Pune,Online,4,14748.42,0.1
+ORD0169,2025-08-09,C0087,P009,Office Chair,Furniture,Chennai,Retail Store,1,7970.81,0.05
+ORD0170,2025-11-03,C0027,P001,Wireless Mouse,Accessories,Pune,Online,2,603.7,0.1
+ORD0171,2025-06-17,C0064,P003,USB-C Hub,Accessories,Lucknow,Online,3,1690.56,0.05
+ORD0172,2025-12-27,C0072,P003,USB-C Hub,Accessories,Jaipur,Online,4,1722.27,0.15
+ORD0173,2025-01-10,C0010,P007,Headphones,Electronics,Jaipur,Retail Store,1,3179.39,0.1
+ORD0174,2025-05-29,C0003,P010,Desk Lamp,Furniture,Jaipur,Online,4,1313.8,0.1
+ORD0175,2025-02-15,C0014,P010,Desk Lamp,Furniture,Hyderabad,Retail Store,4,1385.82,0.05
+ORD0176,2025-02-10,C0040,P010,Desk Lamp,Furniture,Jaipur,Online,4,1376.65,0.15
+ORD0177,2025-09-19,C0068,P006,Laptop,Electronics,Hyderabad,Retail Store,2,63321.59,0
+ORD0178,2025-02-22,C0026,P006,Laptop,Electronics,Bengaluru,Online,2,58492.73,0
+ORD0179,2025-08-26,C0098,P002,Mechanical Keyboard,Accessories,Chennai,Retail Store,2,2289.56,0.1
+ORD0180,2025-02-04,C0081,P006,Laptop,Electronics,Pune,Retail Store,2,61691.7,0.1
+ORD0181,2025-09-17,C0060,P010,Desk Lamp,Furniture,Chennai,Online,1,1304.62,0.05
+ORD0182,2025-02-09,C0110,P001,Wireless Mouse,Accessories,Mumbai,Retail Store,3,665.05,0.05
+ORD0183,2025-10-20,C0042,P008,Webcam,Electronics,Chennai,Online,1,2663.16,0.1
+ORD0184,2025-06-25,C0011,P001,Wireless Mouse,Accessories,Bengaluru,Online,4,700.17,0
+ORD0185,2025-09-26,C0021,P004,Laptop Stand,Accessories,Jaipur,Retail Store,4,1204.37,0.1
+ORD0186,2025-06-23,C0007,P005,27-inch Monitor,Electronics,Jaipur,Online,4,14915.04,0.1
+ORD0187,2025-12-14,C0033,P006,Laptop,Electronics,Bengaluru,Retail Store,1,60874.72,0.15
+ORD0188,2025-06-08,C0090,P002,Mechanical Keyboard,Accessories,Lucknow,Online,2,2364.63,0.05
+ORD0189,2025-10-14,C0102,P010,Desk Lamp,Furniture,Jaipur,Online,1,1372.38,0.05
+ORD0190,2025-09-18,C0047,P009,Office Chair,Furniture,Pune,Online,1,8312.09,0.1
+ORD0191,2025-04-09,C0018,P004,Laptop Stand,Accessories,Bengaluru,Online,3,1147.5,0.1
+ORD0192,2025-10-04,C0114,P005,27-inch Monitor,Electronics,Delhi,Retail Store,1,15277.48,0.15
+ORD0193,2025-07-12,C0024,P010,Desk Lamp,Furniture,Bengaluru,Retail Store,2,1322.55,0.15
+ORD0194,2025-12-13,C0057,P001,Wireless Mouse,Accessories,Pune,Retail Store,4,672.84,0.05
+ORD0195,2025-08-29,C0025,P004,Laptop Stand,Accessories,Jaipur,Retail Store,2,1277.56,0.05
+ORD0196,2025-09-15,C0021,P008,Webcam,Electronics,Hyderabad,Online,3,2611.42,0.1
+ORD0197,2025-07-10,C0014,P005,27-inch Monitor,Electronics,Mumbai,Retail Store,1,14626.53,0.1
+ORD0198,2025-08-19,C0019,P002,Mechanical Keyboard,Accessories,Lucknow,Online,2,2342.67,0.05
+ORD0199,2025-01-14,C0051,P004,Laptop Stand,Accessories,Jaipur,Online,4,1183.66,0.05
+ORD0200,2025-04-25,C0120,P007,Headphones,Electronics,Mumbai,Retail Store,1,2958.43,0.05
+ORD0201,2025-05-27,C0061,P003,USB-C Hub,Accessories,Bengaluru,Retail Store,2,1920.21,0
+ORD0202,2025-01-10,C0107,P008,Webcam,Electronics,Bengaluru,Retail Store,1,2498.46,0
+ORD0203,2025-06-04,C0031,P002,Mechanical Keyboard,Accessories,Lucknow,Retail Store,3,2066.89,0
+ORD0204,2025-11-02,C0081,P002,Mechanical Keyboard,Accessories,Hyderabad,Online,1,2212.69,0.1
+ORD0205,2025-11-11,C0074,P005,27-inch Monitor,Electronics,Lucknow,Online,4,14158.53,0
+ORD0206,2025-09-27,C0101,P002,Mechanical Keyboard,Accessories,Delhi,Retail Store,3,2215.52,0
+ORD0207,2025-07-11,C0003,P008,Webcam,Electronics,Jaipur,Online,1,2497.52,0.1
+ORD0208,2025-10-25,C0043,P006,Laptop,Electronics,Bengaluru,Online,2,64333.05,0
+ORD0209,2025-12-17,C0090,P006,Laptop,Electronics,Chennai,Online,3,61649.06,0
+ORD0210,2025-01-19,C0006,P003,USB-C Hub,Accessories,Hyderabad,Online,1,1740.51,0.1
+ORD0211,2025-07-23,C0070,P006,Laptop,Electronics,Chennai,Retail Store,3,66852.1,0.15
+ORD0212,2025-07-02,C0007,P001,Wireless Mouse,Accessories,Jaipur,Retail Store,2,687.66,0.05
+ORD0213,2025-07-24,C0115,P002,Mechanical Keyboard,Accessories,Lucknow,Retail Store,3,2285.64,0.1
+ORD0214,2025-07-08,C0067,P003,USB-C Hub,Accessories,Pune,Online,4,1922.2,0.1
+ORD0215,2025-11-05,C0024,P007,Headphones,Electronics,Pune,Retail Store,1,3453.49,0.1
+ORD0216,2025-12-05,C0058,P002,Mechanical Keyboard,Accessories,Lucknow,Online,1,2128.07,0.05
+ORD0217,2025-01-22,C0117,P008,Webcam,Electronics,Jaipur,Retail Store,3,2694.35,0.1
+ORD0218,2025-12-10,C0047,P005,27-inch Monitor,Electronics,Bengaluru,Online,1,14819.03,0
+ORD0219,2025-03-06,C0100,P003,USB-C Hub,Accessories,Jaipur,Retail Store,4,1675.36,0
+ORD0220,2025-03-20,C0048,P007,Headphones,Electronics,Jaipur,Retail Store,1,3291.68,0.15
+ORD0221,2025-07-07,C0084,P002,Mechanical Keyboard,Accessories,Pune,Online,2,2164.11,0.15
+ORD0222,2025-09-13,C0117,P002,Mechanical Keyboard,Accessories,Mumbai,Retail Store,1,2206.25,0
+ORD0223,2025-11-10,C0118,P005,27-inch Monitor,Electronics,Chennai,Online,4,14002.54,0
+ORD0224,2025-08-20,C0092,P002,Mechanical Keyboard,Accessories,Chennai,Online,2,2084.78,0
+ORD0225,2025-10-09,C0115,P006,Laptop,Electronics,Pune,Online,3,62418.34,0
+ORD0226,2025-04-25,C0026,P003,USB-C Hub,Accessories,Bengaluru,Online,3,1690.95,0.15
+ORD0227,2025-10-11,C0060,P008,Webcam,Electronics,Bengaluru,Online,1,2630.07,0.05
+ORD0228,2025-09-03,C0099,P002,Mechanical Keyboard,Accessories,Lucknow,Online,3,2209.04,0.1
+ORD0229,2025-08-19,C0067,P003,USB-C Hub,Accessories,Jaipur,Online,3,1790.16,0
+ORD0230,2025-08-10,C0112,P009,Office Chair,Furniture,Delhi,Online,2,8503.89,0
+ORD0231,2025-03-26,C0120,P009,Office Chair,Furniture,Hyderabad,Retail Store,2,8040.28,0.05
+ORD0232,2025-05-09,C0071,P009,Office Chair,Furniture,Pune,Online,3,8086.97,0
+ORD0233,2025-11-25,C0075,P005,27-inch Monitor,Electronics,Bengaluru,Online,1,13731.24,0.15
+ORD0234,2025-01-22,C0004,P010,Desk Lamp,Furniture,Mumbai,Online,3,1472.85,0.15
+ORD0235,2025-10-20,C0082,P010,Desk Lamp,Furniture,Delhi,Retail Store,3,1381.32,0
+ORD0236,2025-09-05,C0104,P009,Office Chair,Furniture,Lucknow,Retail Store,3,8153.03,0.05
+ORD0237,2025-03-22,C0062,P008,Webcam,Electronics,Chennai,Online,1,2574.88,0
+ORD0238,2025-06-13,C0111,P006,Laptop,Electronics,Jaipur,Retail Store,2,64323.26,0.05
+ORD0239,2025-10-15,C0031,P003,USB-C Hub,Accessories,Chennai,Online,3,1686.58,0.15
+ORD0240,2025-03-14,C0038,P005,27-inch Monitor,Electronics,Lucknow,Retail Store,4,13564.6,0
+ORD0241,2025-10-23,C0025,P004,Laptop Stand,Accessories,Bengaluru,Retail Store,2,1242.46,0.05
+ORD0242,2025-06-07,C0012,P009,Office Chair,Furniture,Lucknow,Retail Store,4,8496.42,0.1
+ORD0243,2025-06-30,C0037,P004,Laptop Stand,Accessories,Chennai,Retail Store,2,1113.34,0.15
+ORD0244,2025-08-09,C0034,P005,27-inch Monitor,Electronics,Jaipur,Retail Store,1,13650.73,0
+ORD0245,2025-01-27,C0025,P006,Laptop,Electronics,Jaipur,Retail Store,1,62697.19,0.1
+ORD0246,2025-08-19,C0036,P002,Mechanical Keyboard,Accessories,Mumbai,Online,4,2293.07,0.15
+ORD0247,2025-06-23,C0047,P002,Mechanical Keyboard,Accessories,Bengaluru,Online,4,2220.36,0.05
+ORD0248,2025-01-21,C0018,P010,Desk Lamp,Furniture,Jaipur,Retail Store,4,1298.15,0.15
+ORD0249,2025-11-07,C0018,P009,Office Chair,Furniture,Jaipur,Retail Store,4,9034.66,0
+ORD0250,2025-06-03,C0065,P003,USB-C Hub,Accessories,Chennai,Retail Store,4,1826.99,0.15
+ORD0251,2025-06-19,C0054,P008,Webcam,Electronics,Pune,Online,1,2672.3,0.05
+ORD0252,2025-12-02,C0100,P010,Desk Lamp,Furniture,Hyderabad,Online,4,1463.37,0.05
+ORD0253,2025-09-26,C0080,P010,Desk Lamp,Furniture,Lucknow,Online,4,1428.9,0
+ORD0254,2025-12-25,C0003,P004,Laptop Stand,Accessories,Chennai,Retail Store,1,1125.1,0.15
+ORD0255,2025-12-20,C0065,P007,Headphones,Electronics,Chennai,Online,2,3048.39,0.1
+ORD0256,2025-06-16,C0062,P003,USB-C Hub,Accessories,Lucknow,Retail Store,2,1943.46,0.15
+ORD0257,2025-06-25,C0087,P003,USB-C Hub,Accessories,Pune,Retail Store,4,1813.33,0.15
+ORD0258,2025-10-13,C0039,P004,Laptop Stand,Accessories,Pune,Online,2,1161.31,0.05
+ORD0259,2025-06-28,C0120,P008,Webcam,Electronics,Pune,Retail Store,3,2625.16,0.1
+ORD0260,2025-06-26,C0103,P002,Mechanical Keyboard,Accessories,Bengaluru,Retail Store,4,2360.02,0.1
+ORD0261,2025-06-27,C0084,P001,Wireless Mouse,Accessories,Pune,Retail Store,3,694.1,0
+ORD0262,2025-05-19,C0090,P004,Laptop Stand,Accessories,Pune,Online,2,1283.14,0.15
+ORD0263,2025-01-26,C0068,P002,Mechanical Keyboard,Accessories,Hyderabad,Online,2,2259.78,0
+ORD0264,2025-06-19,C0013,P001,Wireless Mouse,Accessories,Bengaluru,Online,1,672.61,0.1
+ORD0265,2025-12-01,C0113,P009,Office Chair,Furniture,Chennai,Retail Store,2,9091.64,0.1
+ORD0266,2025-05-27,C0117,P004,Laptop Stand,Accessories,Mumbai,Online,3,1228.01,0.05
+ORD0267,2025-08-02,C0023,P009,Office Chair,Furniture,Delhi,Retail Store,1,9019.85,0
+ORD0268,2025-01-20,C0073,P008,Webcam,Electronics,Mumbai,Retail Store,2,2395.86,0.05
+ORD0269,2025-09-26,C0018,P005,27-inch Monitor,Electronics,Chennai,Retail Store,4,14485.88,0.15
+ORD0270,2025-03-25,C0083,P004,Laptop Stand,Accessories,Pune,Online,1,1244.37,0.05
+ORD0271,2025-10-18,C0025,P001,Wireless Mouse,Accessories,Bengaluru,Retail Store,3,668.14,0.05
+ORD0272,2025-07-25,C0024,P007,Headphones,Electronics,Bengaluru,Retail Store,3,3286.66,0
+ORD0273,2025-05-14,C0058,P006,Laptop,Electronics,Pune,Retail Store,2,60845.06,0
+ORD0274,2025-12-01,C0031,P005,27-inch Monitor,Electronics,Delhi,Online,1,14174.16,0.05
+ORD0275,2025-07-27,C0119,P008,Webcam,Electronics,Pune,Online,3,2677.41,0
+ORD0276,2025-04-24,C0018,P005,27-inch Monitor,Electronics,Chennai,Online,3,13848.38,0.15
+ORD0277,2025-12-26,C0061,P008,Webcam,Electronics,Hyderabad,Online,3,2620.48,0.1
+ORD0278,2025-08-17,C0047,P010,Desk Lamp,Furniture,Mumbai,Online,1,1406.31,0.15
+ORD0279,2025-10-02,C0042,P001,Wireless Mouse,Accessories,Chennai,Online,2,613.58,0.15
+ORD0280,2025-09-19,C0008,P004,Laptop Stand,Accessories,Chennai,Online,4,1189.53,0
+ORD0281,2025-10-16,C0060,P009,Office Chair,Furniture,Pune,Online,4,7898.52,0.1
+ORD0282,2025-04-22,C0006,P007,Headphones,Electronics,Lucknow,Retail Store,3,3240.1,0
+ORD0283,2025-08-30,C0053,P002,Mechanical Keyboard,Accessories,Bengaluru,Online,1,2035.17,0
+ORD0284,2025-08-18,C0117,P007,Headphones,Electronics,Lucknow,Retail Store,3,3389.25,0.1
+ORD0285,2025-03-02,C0069,P002,Mechanical Keyboard,Accessories,Lucknow,Online,2,2086.82,0.05
+ORD0286,2025-06-02,C0093,P004,Laptop Stand,Accessories,Lucknow,Retail Store,1,1192.9,0
+ORD0287,2025-06-27,C0025,P004,Laptop Stand,Accessories,Mumbai,Online,2,1133.78,0.1
+ORD0288,2025-04-16,C0077,P007,Headphones,Electronics,Delhi,Retail Store,1,2978.45,0
+ORD0289,2025-01-23,C0030,P010,Desk Lamp,Furniture,Hyderabad,Online,1,1378.11,0
+ORD0290,2025-10-22,C0077,P003,USB-C Hub,Accessories,Jaipur,Online,3,1747.84,0
+ORD0291,2025-04-24,C0036,P005,27-inch Monitor,Electronics,Delhi,Online,2,14299.46,0.15
+ORD0292,2025-06-26,C0086,P007,Headphones,Electronics,Lucknow,Retail Store,4,3426.09,0
+ORD0293,2025-06-03,C0097,P007,Headphones,Electronics,Chennai,Online,4,3136.75,0
+ORD0294,2025-08-26,C0072,P004,Laptop Stand,Accessories,Lucknow,Retail Store,3,1279.63,0
+ORD0295,2025-05-05,C0043,P009,Office Chair,Furniture,Mumbai,Retail Store,2,8166.79,0.1
+ORD0296,2025-04-08,C0049,P006,Laptop,Electronics,Delhi,Online,1,57551.24,0.15
+ORD0297,2025-04-17,C0043,P004,Laptop Stand,Accessories,Pune,Online,2,1270.94,0.1
+ORD0298,2025-09-03,C0090,P004,Laptop Stand,Accessories,Hyderabad,Retail Store,2,1279.57,0
+ORD0299,2025-07-14,C0084,P004,Laptop Stand,Accessories,Jaipur,Retail Store,3,1193.52,0.05
+ORD0300,2025-09-12,C0103,P005,27-inch Monitor,Electronics,Chennai,Retail Store,3,14421.13,0.15
+ORD0301,2025-07-31,C0111,P004,Laptop Stand,Accessories,Hyderabad,Online,3,1112.78,0.05
+ORD0302,2025-10-27,C0054,P001,Wireless Mouse,Accessories,Pune,Online,3,658.23,0.15
+ORD0303,2025-07-14,C0032,P004,Laptop Stand,Accessories,Chennai,Retail Store,3,1213.4,0
+ORD0304,2025-08-24,C0102,P005,27-inch Monitor,Electronics,Jaipur,Online,4,13730.3,0.1
+ORD0305,2025-10-05,C0008,P003,USB-C Hub,Accessories,Delhi,Online,4,1941.21,0
+ORD0306,2025-03-12,C0030,P001,Wireless Mouse,Accessories,Mumbai,Online,1,685.62,0.1
+ORD0307,2025-08-22,C0080,P001,Wireless Mouse,Accessories,Chennai,Retail Store,2,636.81,0.15
+ORD0308,2025-10-10,C0003,P001,Wireless Mouse,Accessories,Pune,Retail Store,1,640.78,0.15
+ORD0309,2025-02-24,C0068,P001,Wireless Mouse,Accessories,Bengaluru,Online,4,693.48,0
+ORD0310,2025-05-17,C0011,P004,Laptop Stand,Accessories,Jaipur,Retail Store,3,1256.63,0.05
+ORD0311,2025-06-03,C0109,P008,Webcam,Electronics,Mumbai,Online,2,2676.56,0
+ORD0312,2025-07-13,C0008,P002,Mechanical Keyboard,Accessories,Delhi,Online,4,2218.55,0.1
+ORD0313,2025-11-27,C0073,P002,Mechanical Keyboard,Accessories,Mumbai,Online,4,2300.1,0.1
+ORD0314,2025-09-01,C0119,P004,Laptop Stand,Accessories,Mumbai,Retail Store,2,1156.05,0.15
+ORD0315,2025-06-11,C0027,P009,Office Chair,Furniture,Bengaluru,Retail Store,1,7841.3,0
+ORD0316,2025-10-16,C0107,P002,Mechanical Keyboard,Accessories,Lucknow,Retail Store,3,2108.65,0
+ORD0317,2025-09-14,C0045,P007,Headphones,Electronics,Delhi,Online,2,3325.67,0
+ORD0318,2025-06-24,C0079,P007,Headphones,Electronics,Lucknow,Retail Store,2,3253.85,0
+ORD0319,2025-09-09,C0071,P001,Wireless Mouse,Accessories,Lucknow,Retail Store,3,621.73,0.1
+ORD0320,2025-11-13,C0032,P003,USB-C Hub,Accessories,Mumbai,Online,4,1741.07,0
+ORD0321,2025-12-31,C0020,P005,27-inch Monitor,Electronics,Lucknow,Retail Store,2,15158.63,0.1
+ORD0322,2025-01-03,C0057,P006,Laptop,Electronics,Jaipur,Retail Store,1,66394.17,0
+ORD0323,2025-04-06,C0072,P002,Mechanical Keyboard,Accessories,Lucknow,Online,2,2175.7,0
+ORD0324,2025-10-11,C0077,P001,Wireless Mouse,Accessories,Jaipur,Retail Store,1,607.68,0.05
+ORD0325,2025-07-18,C0093,P001,Wireless Mouse,Accessories,Hyderabad,Online,3,679.03,0.1
+ORD0326,2025-05-18,C0064,P007,Headphones,Electronics,Bengaluru,Online,2,3098.18,0
+ORD0327,2025-08-04,C0101,P003,USB-C Hub,Accessories,Mumbai,Retail Store,4,1742.33,0.05
+ORD0328,2025-11-01,C0059,P005,27-inch Monitor,Electronics,Mumbai,Online,2,14770.67,0.1
+ORD0329,2025-06-20,C0049,P005,27-inch Monitor,Electronics,Jaipur,Retail Store,1,15292.54,0.1
+ORD0330,2025-03-11,C0078,P006,Laptop,Electronics,Hyderabad,Retail Store,4,60020.32,0.15
+ORD0331,2025-06-13,C0089,P006,Laptop,Electronics,Chennai,Online,2,59931.17,0.1
+ORD0332,2025-07-21,C0120,P006,Laptop,Electronics,Hyderabad,Online,4,60660.95,0.05
+ORD0333,2025-12-29,C0103,P009,Office Chair,Furniture,Pune,Online,1,8105.12,0.1
+ORD0334,2025-11-21,C0033,P007,Headphones,Electronics,Bengaluru,Retail Store,4,3099.05,0
+ORD0335,2025-11-03,C0052,P007,Headphones,Electronics,Lucknow,Online,1,3189.37,0.1
+ORD0336,2025-05-08,C0046,P006,Laptop,Electronics,Bengaluru,Online,1,63563.41,0
+ORD0337,2025-08-09,C0013,P010,Desk Lamp,Furniture,Pune,Online,4,1311.73,0.05
+ORD0338,2025-07-11,C0099,P009,Office Chair,Furniture,Bengaluru,Retail Store,2,8351.94,0.1
+ORD0339,2025-06-01,C0011,P001,Wireless Mouse,Accessories,Mumbai,Online,4,641.26,0
+ORD0340,2025-08-22,C0067,P006,Laptop,Electronics,Chennai,Retail Store,3,64819.96,0.05
+ORD0341,2025-12-23,C0009,P008,Webcam,Electronics,Pune,Online,1,2580.22,0.1
+ORD0342,2025-11-28,C0103,P002,Mechanical Keyboard,Accessories,Bengaluru,Online,1,2062.5,0.05
+ORD0343,2025-03-23,C0055,P009,Office Chair,Furniture,Chennai,Online,2,8270.15,0.15
+ORD0344,2025-11-24,C0051,P007,Headphones,Electronics,Delhi,Online,2,3280.54,0
+ORD0345,2025-01-03,C0027,P008,Webcam,Electronics,Pune,Online,4,2685.17,0.1
+ORD0346,2025-04-06,C0026,P010,Desk Lamp,Furniture,Chennai,Online,1,1369.94,0.15
+ORD0347,2025-11-24,C0050,P005,27-inch Monitor,Electronics,Lucknow,Online,4,14067.1,0.15
+ORD0348,2025-11-13,C0087,P006,Laptop,Electronics,Pune,Online,3,58751.47,0.1
+ORD0349,2025-05-03,C0024,P003,USB-C Hub,Accessories,Jaipur,Online,3,1743.95,0
+ORD0350,2025-11-02,C0050,P009,Office Chair,Furniture,Lucknow,Online,4,8007.5,0.1
+ORD0351,2025-03-27,C0018,P008,Webcam,Electronics,Bengaluru,Retail Store,2,2595.69,0.15
+ORD0352,2025-01-05,C0025,P008,Webcam,Electronics,Lucknow,Retail Store,1,2593.6,0.05
+ORD0353,2025-12-30,C0063,P007,Headphones,Electronics,Bengaluru,Online,4,3374.02,0.1
+ORD0354,2025-05-30,C0029,P010,Desk Lamp,Furniture,Pune,Online,1,1295.32,0
+ORD0355,2025-09-19,C0015,P008,Webcam,Electronics,Pune,Retail Store,4,2439.1,0.15
+ORD0356,2025-10-07,C0055,P009,Office Chair,Furniture,Mumbai,Online,1,8117.22,0.1
+ORD0357,2025-05-15,C0105,P005,27-inch Monitor,Electronics,Mumbai,Retail Store,1,14148.7,0.1
+ORD0358,2025-10-29,C0111,P002,Mechanical Keyboard,Accessories,Lucknow,Online,2,2266.58,0
+ORD0359,2025-04-16,C0073,P010,Desk Lamp,Furniture,Jaipur,Retail Store,2,1468.42,0
+ORD0360,2025-12-27,C0074,P010,Desk Lamp,Furniture,Pune,Online,2,1353.55,0.05
+ORD0361,2025-05-22,C0017,P003,USB-C Hub,Accessories,Bengaluru,Online,4,1905.71,0
+ORD0362,2025-12-13,C0019,P003,USB-C Hub,Accessories,Pune,Retail Store,3,1769.1,0
+ORD0363,2025-11-21,C0099,P007,Headphones,Electronics,Mumbai,Retail Store,4,3350.83,0
+ORD0364,2025-08-21,C0042,P009,Office Chair,Furniture,Delhi,Online,3,9112.35,0.05
+ORD0365,2025-10-01,C0055,P008,Webcam,Electronics,Hyderabad,Retail Store,3,2557.45,0
+ORD0366,2025-06-22,C0017,P005,27-inch Monitor,Electronics,Chennai,Retail Store,3,14609.76,0.05
+ORD0367,2025-11-17,C0059,P001,Wireless Mouse,Accessories,Delhi,Online,1,679.52,0
+ORD0368,2025-01-01,C0055,P003,USB-C Hub,Accessories,Hyderabad,Online,4,1941.65,0.1
+ORD0369,2025-02-17,C0033,P005,27-inch Monitor,Electronics,Mumbai,Retail Store,2,14858.64,0.05
+ORD0370,2025-11-17,C0090,P003,USB-C Hub,Accessories,Hyderabad,Retail Store,1,1743.99,0.1
+ORD0371,2025-04-20,C0017,P002,Mechanical Keyboard,Accessories,Hyderabad,Retail Store,1,2191.84,0
+ORD0372,2025-03-03,C0055,P001,Wireless Mouse,Accessories,Bengaluru,Retail Store,1,700.77,0.05
+ORD0373,2025-02-15,C0014,P002,Mechanical Keyboard,Accessories,Mumbai,Retail Store,2,2281.23,0.1
+ORD0374,2025-07-15,C0097,P006,Laptop,Electronics,Bengaluru,Online,3,64712.73,0
+ORD0375,2025-11-29,C0045,P002,Mechanical Keyboard,Accessories,Hyderabad,Online,1,2081.77,0.15
+ORD0376,2025-02-14,C0018,P007,Headphones,Electronics,Mumbai,Retail Store,4,3403.06,0
+ORD0377,2025-03-13,C0083,P006,Laptop,Electronics,Mumbai,Online,4,59498.04,0.05
+ORD0378,2025-12-04,C0027,P009,Office Chair,Furniture,Hyderabad,Retail Store,3,9011.12,0
+ORD0379,2025-09-11,C0031,P005,27-inch Monitor,Electronics,Chennai,Online,1,14235.25,0
+ORD0380,2025-06-12,C0111,P009,Office Chair,Furniture,Lucknow,Retail Store,1,7999.5,0.05
+ORD0381,2025-02-07,C0009,P009,Office Chair,Furniture,Delhi,Retail Store,2,7842.7,0.1
+ORD0382,2025-07-23,C0081,P004,Laptop Stand,Accessories,Lucknow,Retail Store,1,1201.27,0
+ORD0383,2025-10-03,C0036,P007,Headphones,Electronics,Mumbai,Retail Store,1,3259.42,0.15
+ORD0384,2025-10-02,C0076,P002,Mechanical Keyboard,Accessories,Mumbai,Retail Store,2,2139.02,0
+ORD0385,2025-05-06,C0056,P007,Headphones,Electronics,Mumbai,Retail Store,2,2988.14,0
+ORD0386,2025-12-08,C0095,P010,Desk Lamp,Furniture,Bengaluru,Online,1,1454.14,0.05
+ORD0387,2025-03-25,C0045,P001,Wireless Mouse,Accessories,Pune,Online,2,649.63,0
+ORD0388,2025-03-02,C0004,P006,Laptop,Electronics,Jaipur,Retail Store,2,64692.59,0.05
+ORD0389,2025-12-31,C0081,P005,27-inch Monitor,Electronics,Mumbai,Retail Store,1,15602.12,0.05
+ORD0390,2025-09-13,C0022,P008,Webcam,Electronics,Jaipur,Online,3,2749.49,0
+ORD0391,2025-12-12,C0030,P005,27-inch Monitor,Electronics,Delhi,Online,1,15016.85,0.15
+ORD0392,2025-08-30,C0118,P001,Wireless Mouse,Accessories,Bengaluru,Online,2,635.85,0
+ORD0393,2025-06-14,C0118,P001,Wireless Mouse,Accessories,Jaipur,Retail Store,4,623.82,0
+ORD0394,2025-09-15,C0007,P002,Mechanical Keyboard,Accessories,Bengaluru,Online,3,2261.01,0
+ORD0395,2025-02-05,C0111,P009,Office Chair,Furniture,Pune,Retail Store,1,9012.71,0.1
+ORD0396,2025-08-22,C0026,P006,Laptop,Electronics,Pune,Retail Store,1,57119.05,0.15
+ORD0397,2025-07-08,C0064,P010,Desk Lamp,Furniture,Hyderabad,Online,2,1420.54,0.1
+ORD0398,2025-01-13,C0045,P003,USB-C Hub,Accessories,Delhi,Retail Store,1,1723.1,0.1
+ORD0399,2025-02-23,C0031,P001,Wireless Mouse,Accessories,Lucknow,Retail Store,4,619.34,0.05
+ORD0400,2025-02-17,C0030,P001,Wireless Mouse,Accessories,Lucknow,Retail Store,2,602.57,0.05
+ORD0401,2025-02-18,C0082,P008,Webcam,Electronics,Lucknow,Online,1,2602.26,0.15
+ORD0402,2025-12-06,C0031,P010,Desk Lamp,Furniture,Pune,Retail Store,1,1503.98,0.1
+ORD0403,2025-06-12,C0030,P006,Laptop,Electronics,Mumbai,Online,4,61531.36,0.05
+ORD0404,2025-02-24,C0060,P003,USB-C Hub,Accessories,Jaipur,Retail Store,1,1703.34,0
+ORD0405,2025-08-20,C0034,P002,Mechanical Keyboard,Accessories,Mumbai,Online,3,2132.52,0
+ORD0406,2025-01-21,C0110,P003,USB-C Hub,Accessories,Jaipur,Online,3,1717.93,0.15
+ORD0407,2025-07-22,C0087,P002,Mechanical Keyboard,Accessories,Pune,Retail Store,2,2204.74,0.05
+ORD0408,2025-08-20,C0071,P003,USB-C Hub,Accessories,Hyderabad,Online,1,1816.11,0.1
+ORD0409,2025-03-04,C0107,P008,Webcam,Electronics,Hyderabad,Online,1,2396.97,0
+ORD0410,2025-12-18,C0083,P004,Laptop Stand,Accessories,Mumbai,Retail Store,4,1225.02,0.05
+ORD0411,2025-04-12,C0057,P002,Mechanical Keyboard,Accessories,Bengaluru,Online,1,2341.68,0
+ORD0412,2025-08-25,C0119,P006,Laptop,Electronics,Lucknow,Retail Store,1,57542.33,0
+ORD0413,2025-12-16,C0046,P008,Webcam,Electronics,Hyderabad,Online,1,2569.49,0.1
+ORD0414,2025-03-18,C0080,P005,27-inch Monitor,Electronics,Hyderabad,Retail Store,3,13420.39,0.1
+ORD0415,2025-09-03,C0036,P008,Webcam,Electronics,Lucknow,Online,4,2417.37,0.15
+ORD0416,2025-05-08,C0103,P007,Headphones,Electronics,Delhi,Retail Store,2,3266.95,0.15
+ORD0417,2025-09-06,C0073,P006,Laptop,Electronics,Jaipur,Retail Store,4,60452.82,0.15
+ORD0418,2025-06-13,C0004,P005,27-inch Monitor,Electronics,Pune,Online,2,14725.31,0
+ORD0419,2025-04-30,C0013,P008,Webcam,Electronics,Hyderabad,Online,3,2797.18,0.15
+ORD0420,2025-10-22,C0103,P005,27-inch Monitor,Electronics,Lucknow,Retail Store,1,15303.89,0
+ORD0421,2025-10-31,C0095,P003,USB-C Hub,Accessories,Jaipur,Online,2,1747.59,0
+ORD0422,2025-04-07,C0104,P006,Laptop,Electronics,Chennai,Retail Store,2,65340.03,0.15
+ORD0423,2025-02-16,C0078,P003,USB-C Hub,Accessories,Hyderabad,Online,4,1672.18,0
+ORD0424,2025-06-19,C0026,P009,Office Chair,Furniture,Bengaluru,Retail Store,4,9068.34,0
+ORD0425,2025-01-12,C0091,P003,USB-C Hub,Accessories,Bengaluru,Online,3,1698.54,0
+ORD0426,2025-07-11,C0085,P009,Office Chair,Furniture,Lucknow,Online,3,8778.17,0
+ORD0427,2025-03-11,C0094,P006,Laptop,Electronics,Lucknow,Retail Store,3,66720.54,0.05
+ORD0428,2025-12-22,C0079,P006,Laptop,Electronics,Jaipur,Online,2,65864.83,0.15
+ORD0429,2025-06-07,C0038,P010,Desk Lamp,Furniture,Bengaluru,Online,2,1452.41,0.1
+ORD0430,2025-01-17,C0041,P001,Wireless Mouse,Accessories,Hyderabad,Online,4,616.94,0.15
+ORD0431,2025-02-09,C0041,P008,Webcam,Electronics,Bengaluru,Online,2,2491.01,0.05
+ORD0432,2025-05-16,C0089,P006,Laptop,Electronics,Mumbai,Retail Store,4,59120.07,0
+ORD0433,2025-01-25,C0094,P005,27-inch Monitor,Electronics,Lucknow,Online,1,14235.37,0
+ORD0434,2025-06-29,C0013,P007,Headphones,Electronics,Chennai,Online,4,3223.56,0.1
+ORD0435,2025-01-18,C0041,P003,USB-C Hub,Accessories,Pune,Online,4,1740.93,0
+ORD0436,2025-07-12,C0010,P002,Mechanical Keyboard,Accessories,Mumbai,Retail Store,3,2080.64,0
+ORD0437,2025-08-09,C0022,P010,Desk Lamp,Furniture,Lucknow,Online,4,1499.11,0
+ORD0438,2025-04-16,C0053,P001,Wireless Mouse,Accessories,Pune,Retail Store,1,699.34,0.05
+ORD0439,2025-01-26,C0071,P005,27-inch Monitor,Electronics,Chennai,Online,2,14251.53,0
+ORD0440,2025-08-07,C0106,P001,Wireless Mouse,Accessories,Chennai,Online,3,607.11,0
+ORD0441,2025-03-29,C0011,P002,Mechanical Keyboard,Accessories,Chennai,Online,1,2248.64,0
+ORD0442,2025-09-08,C0034,P005,27-inch Monitor,Electronics,Mumbai,Retail Store,4,15416.12,0.1
+ORD0443,2025-07-09,C0006,P003,USB-C Hub,Accessories,Pune,Retail Store,3,1709.74,0.1
+ORD0444,2025-05-18,C0020,P008,Webcam,Electronics,Mumbai,Online,3,2626.73,0
+ORD0445,2025-04-27,C0108,P006,Laptop,Electronics,Lucknow,Retail Store,4,62531.73,0.15
+ORD0446,2025-05-01,C0011,P009,Office Chair,Furniture,Lucknow,Online,4,8467.72,0.15
+ORD0447,2025-08-18,C0022,P009,Office Chair,Furniture,Hyderabad,Online,2,8055.12,0
+ORD0448,2025-02-10,C0056,P003,USB-C Hub,Accessories,Hyderabad,Online,1,1940.62,0.1
+ORD0449,2025-02-04,C0072,P010,Desk Lamp,Furniture,Lucknow,Retail Store,3,1307.49,0.05
+ORD0450,2025-12-25,C0067,P005,27-inch Monitor,Electronics,Lucknow,Online,4,14785.49,0
+ORD0451,2025-10-18,C0098,P007,Headphones,Electronics,Mumbai,Online,2,3245.02,0
+ORD0452,2025-10-02,C0113,P010,Desk Lamp,Furniture,Lucknow,Retail Store,1,1485.15,0.05
+ORD0453,2025-11-08,C0023,P007,Headphones,Electronics,Pune,Retail Store,4,3186.2,0.15
+ORD0454,2025-07-22,C0043,P003,USB-C Hub,Accessories,Hyderabad,Online,4,1912.2,0
+ORD0455,2025-01-11,C0102,P008,Webcam,Electronics,Pune,Retail Store,3,2532.55,0.05
+ORD0456,2025-04-27,C0096,P005,27-inch Monitor,Electronics,Chennai,Retail Store,4,13651.77,0
+ORD0457,2025-11-27,C0057,P005,27-inch Monitor,Electronics,Hyderabad,Retail Store,4,13547.15,0.15
+ORD0458,2025-09-21,C0009,P008,Webcam,Electronics,Pune,Retail Store,3,2721.26,0
+ORD0459,2025-04-09,C0026,P003,USB-C Hub,Accessories,Delhi,Online,1,1908.05,0
+ORD0460,2025-07-04,C0036,P001,Wireless Mouse,Accessories,Jaipur,Retail Store,4,671.28,0
+ORD0461,2025-12-15,C0048,P009,Office Chair,Furniture,Chennai,Retail Store,4,7861.57,0
+ORD0462,2025-10-10,C0021,P003,USB-C Hub,Accessories,Pune,Online,4,1756.73,0.15
+ORD0463,2025-01-26,C0074,P005,27-inch Monitor,Electronics,Hyderabad,Online,1,13717.95,0.1
+ORD0464,2025-11-30,C0003,P004,Laptop Stand,Accessories,Delhi,Retail Store,2,1182.63,0.05
+ORD0465,2025-01-05,C0078,P003,USB-C Hub,Accessories,Pune,Retail Store,2,1720.45,0.15
+ORD0466,2025-08-24,C0060,P007,Headphones,Electronics,Pune,Retail Store,4,3073.02,0.05
+ORD0467,2025-09-19,C0108,P010,Desk Lamp,Furniture,Jaipur,Retail Store,1,1511.87,0
+ORD0468,2025-02-02,C0036,P005,27-inch Monitor,Electronics,Jaipur,Retail Store,1,14120.18,0.1
+ORD0469,2025-03-18,C0031,P005,27-inch Monitor,Electronics,Delhi,Retail Store,3,14540.12,0
+ORD0470,2025-12-02,C0038,P006,Laptop,Electronics,Pune,Retail Store,2,61973.94,0
+ORD0471,2025-10-26,C0074,P007,Headphones,Electronics,Hyderabad,Retail Store,4,3306.53,0
+ORD0472,2025-09-17,C0022,P004,Laptop Stand,Accessories,Bengaluru,Retail Store,4,1161.64,0.05
+ORD0473,2025-05-13,C0072,P002,Mechanical Keyboard,Accessories,Bengaluru,Retail Store,4,2279.27,0
+ORD0474,2025-04-25,C0040,P002,Mechanical Keyboard,Accessories,Lucknow,Retail Store,2,2285.96,0.05
+ORD0475,2025-05-31,C0016,P006,Laptop,Electronics,Chennai,Online,3,61640.51,0.15
+ORD0476,2025-04-10,C0112,P010,Desk Lamp,Furniture,Lucknow,Retail Store,1,1400.11,0.1
+ORD0477,2025-03-12,C0044,P007,Headphones,Electronics,Lucknow,Retail Store,1,3452.08,0
+ORD0478,2025-02-11,C0081,P003,USB-C Hub,Accessories,Bengaluru,Retail Store,3,1796.42,0
+ORD0479,2025-05-21,C0100,P001,Wireless Mouse,Accessories,Bengaluru,Online,1,619.78,0.1
+ORD0480,2025-11-11,C0055,P008,Webcam,Electronics,Lucknow,Retail Store,1,2572.42,0
+ORD0481,2025-01-20,C0094,P008,Webcam,Electronics,Jaipur,Online,4,2614.05,0
+ORD0482,2025-12-13,C0094,P006,Laptop,Electronics,Hyderabad,Online,2,57080.91,0
+ORD0483,2025-02-22,C0076,P006,Laptop,Electronics,Pune,Online,3,60844.82,0
+ORD0484,2025-05-29,C0067,P002,Mechanical Keyboard,Accessories,Jaipur,Retail Store,1,2184.49,0.05
+ORD0485,2025-07-03,C0022,P003,USB-C Hub,Accessories,Lucknow,Online,3,1872.03,0.1
+ORD0486,2025-04-19,C0076,P004,Laptop Stand,Accessories,Bengaluru,Online,2,1244.94,0
+ORD0487,2025-11-24,C0069,P006,Laptop,Electronics,Delhi,Online,1,59577.43,0.1
+ORD0488,2025-12-20,C0057,P002,Mechanical Keyboard,Accessories,Lucknow,Online,1,2064.76,0
+ORD0489,2025-12-26,C0089,P009,Office Chair,Furniture,Delhi,Retail Store,3,8028.25,0.1
+ORD0490,2025-05-19,C0090,P007,Headphones,Electronics,Bengaluru,Retail Store,1,3262.87,0.15
+ORD0491,2025-02-28,C0064,P002,Mechanical Keyboard,Accessories,Hyderabad,Online,1,2300.24,0.05
+ORD0492,2025-12-27,C0021,P005,27-inch Monitor,Electronics,Delhi,Retail Store,2,14290.63,0.05
+ORD0493,2025-05-01,C0086,P004,Laptop Stand,Accessories,Mumbai,Online,4,1104.53,0.05
+ORD0494,2025-02-16,C0010,P010,Desk Lamp,Furniture,Mumbai,Retail Store,4,1462.61,0
+ORD0495,2025-05-16,C0013,P004,Laptop Stand,Accessories,Bengaluru,Online,4,1193.14,0.05
+ORD0496,2025-08-07,C0013,P005,27-inch Monitor,Electronics,Delhi,Online,3,15053.41,0.05
+ORD0497,2025-07-03,C0080,P003,USB-C Hub,Accessories,Pune,Online,2,1913.62,0.05
+ORD0498,2025-02-28,C0059,P006,Laptop,Electronics,Pune,Retail Store,3,61015.71,0
+ORD0499,2025-02-27,C0093,P008,Webcam,Electronics,Delhi,Online,4,2447.12,0
+ORD0500,2025-09-05,C0087,P002,Mechanical Keyboard,Accessories,Chennai,Online,4,2306.4,0.15
