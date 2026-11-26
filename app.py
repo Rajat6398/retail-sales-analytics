@@ -25,20 +25,37 @@ st.markdown("""
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+
     div[data-testid="stMetric"] {
         background-color: rgba(128,128,128,0.08);
         border: 1px solid rgba(128,128,128,0.2);
         padding: 16px;
         border-radius: 10px;
+        min-width: 0;
+        width: 100%;
+    }
+
+    div[data-testid="stMetricValue"] {
+        font-size: 1.25rem !important;
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
+        line-height: 1.4 !important;
+    }
+
+    div[data-testid="stMetricLabel"] {
+        font-size: 0.9rem !important;
     }
 </style>
 """, unsafe_allow_html=True)
+
 
 # -----------------------------
 # LOAD DATA
 # -----------------------------
 @st.cache_data
 def load_data():
+
     df = pd.read_csv(DATA)
 
     required_columns = [
@@ -90,11 +107,14 @@ def load_data():
 # DASHBOARD HEADER
 # -----------------------------
 st.title("📊 Retail Sales Analytics Dashboard")
+
 st.caption(
     "Business Performance | Interactive Sales Analysis"
 )
 
+
 try:
+
     df = load_data()
 
     if df.empty:
@@ -118,12 +138,16 @@ try:
     )
 
     if isinstance(date_range, (tuple, list)):
+
         if len(date_range) == 2:
             start_date, end_date = date_range
+
         elif len(date_range) == 1:
             start_date = end_date = date_range[0]
+
         else:
             start_date, end_date = min_date, max_date
+
     else:
         start_date = end_date = date_range
 
@@ -170,6 +194,7 @@ try:
     ].copy()
 
     if selected_city != "All":
+
         filtered = filtered[
             filtered["city"] == selected_city
         ]
@@ -192,7 +217,8 @@ try:
 
     st.subheader("Business Performance Overview")
 
-    c1, c2, c3, c4, c5 = st.columns(5)
+    # First Row: 3 KPI Cards
+    c1, c2, c3 = st.columns(3)
 
     c1.metric(
         "Total Revenue",
@@ -208,6 +234,9 @@ try:
         "Customers",
         f"{customers:,}"
     )
+
+    # Second Row: 2 KPI Cards
+    c4, c5 = st.columns(2)
 
     c4.metric(
         "Units Sold",
@@ -253,6 +282,7 @@ try:
     i1, i2 = st.columns(2)
 
     with i1:
+
         st.info(
             f"🏙️ **Top City:** {city_sales.index[0]} "
             f"(₹{city_sales.iloc[0]:,.2f})"
@@ -264,6 +294,7 @@ try:
         )
 
     with i2:
+
         st.info(
             f"🏆 **Top Product:** {product_sales.index[0]} "
             f"(₹{product_sales.iloc[0]:,.2f})"
@@ -323,6 +354,7 @@ try:
     left, right = st.columns(2)
 
     with left:
+
         st.subheader("📦 Category Performance")
 
         category = (
@@ -355,6 +387,7 @@ try:
         )
 
     with right:
+
         st.subheader("🏙️ City Performance")
 
         city = (
@@ -494,6 +527,8 @@ try:
         "Built with Python | Pandas | Streamlit | Plotly"
     )
 
+
 except Exception as e:
+
     st.error(f"Dashboard error: {e}")
     st.exception(e)
