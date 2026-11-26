@@ -1,141 +1,104 @@
+
 # Retail Sales Analytics Dashboard
 
-An end-to-end Retail Sales Analytics project built using **Python, Pandas, SQL, SQLite, and Streamlit**. This project transforms raw retail transaction data into meaningful business insights through data cleaning, SQL analysis, automated reporting, and an interactive dashboard.
+An end-to-end Retail Sales Analytics project built using Python, Pandas, SQLite, SQL, Streamlit and Plotly.
 
-## Project Overview
+## 🚀 Live Dashboard
 
-The project analyzes 500 synthetic retail orders from 2025 to understand sales performance, customer behavior, product performance, and revenue trends.
+[Open Live Retail Sales Dashboard](https://retail-sales-analytics-avbac2pe7rjsgsuqfw4uww.streamlit.app/)
 
-## Key Features
+## 📌 Project Overview
 
-- Data cleaning and preprocessing using Pandas.
-- Data quality checks for missing values and invalid records.
-- SQLite database creation and management.
-- Business analysis using SQL queries.
-- Automated CSV report generation.
-- Interactive Streamlit dashboard.
-- Dynamic filters for date range, city, and sales channel.
-- KPI tracking and sales performance analysis.
+This project analyzes 500 synthetic retail transactions from 2025 to identify sales trends, product performance, customer behavior and city-wise revenue.
 
-## Dashboard KPIs
-
-| Metric | Value |
-|---|---:|
-| Total Revenue | ₹11,283,446.67 |
-| Total Orders | 497 |
-| Total Customers | 116 |
-| Units Sold | 1,214 |
-| Average Order Value | ₹22,703.11 |
-
-## Dashboard Filters
-
-- Date Range
-- City
-- Sales Channel (Online / Retail Store)
-
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
 - SQLite
 - SQL
 - Streamlit
-- Git and GitHub
+- Plotly
+- Git & GitHub
 
-## Project Structure
+## 📊 Dashboard Features
+
+- Total Revenue
+- Total Orders
+- Total Customers
+- Units Sold
+- Average Order Value
+- Date Range Filter
+- City Filter
+- Sales Channel Filter
+- Interactive Charts
+- CSV Download
+
+## 🔍 Data Analysis
+
+- Monthly Revenue Analysis
+- Category Performance
+- City-wise Sales Performance
+- Top 10 Products
+- Sales Channel Analysis
+- Repeat Customer Analysis
+
+## 🧹 Data Cleaning
+
+- Missing value checks
+- Invalid quantity checks
+- Invalid unit price checks
+- Data cleaning using Pandas
+- Net revenue calculation
+
+## 📁 Project Structure
 
 ```text
-Retail_Sales_Analysis/
+retail-sales-analytics/
 │
-├── data/
-├── reports/
-├── sql/
-├── src/
 ├── app.py
-├── retail_sales.db
 ├── requirements.txt
-├── README.md
-└── STUDY_GUIDE.md
+├── data/
+│   ├── sales_raw.csv
+│   └── sales_clean.csv
+├── src/
+│   └── run_analysis.py
+├── reports/
+└── README.md
 ```
 
-## Installation and Setup
+## ▶️ How to Run Locally
 
-### 1. Clone the repository
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/Rajat6398/retail-sales-analytics.git
+```
+
+2. Open the project folder:
+
+```bash
 cd retail-sales-analytics
 ```
 
-### 2. Create a virtual environment
-
-```bash
-python -m venv .venv
-```
-
-### 3. Activate the environment (Windows)
-
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-### 4. Install dependencies
+3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Run the data analysis pipeline
-
-```bash
-python src/run_analysis.py
-```
-
-### 6. Launch the interactive dashboard
+4. Run the Streamlit dashboard:
 
 ```bash
 streamlit run app.py
 ```
 
-The dashboard will open in your browser.
+## 💡 Interview Explanation
 
-## SQL Analysis
+"I developed an end-to-end retail sales analytics project using Python, Pandas, SQL and Streamlit. I cleaned retail transaction data, performed SQL-based business analysis, created interactive KPI dashboards and visualized sales performance across different cities, products and sales channels."
 
-The project includes analysis of:
+## ⚠️ Disclaimer
 
-- Monthly revenue trends
-- Category-wise sales performance
-- City-wise revenue
-- Top-performing products
-- Sales channel performance
-- Repeat customers
-
-Revenue is calculated using:
-
-`quantity * unit_price * (1 - discount_pct)`
-
-## Business Insights
-
-The dashboard helps understand:
-
-- Overall revenue and order performance.
-- Which cities generate more revenue.
-- Which product categories perform better.
-- Online versus retail store sales.
-- Monthly sales trends.
-
-## Interview Explanation
-
-"I developed an end-to-end retail sales analytics project using Python, Pandas, SQLite, SQL, and Streamlit. I cleaned and transformed raw transaction data, performed SQL-based business analysis, generated automated reports, and developed an interactive dashboard with dynamic filters and KPI metrics to analyze retail sales performance."
-
-## Important Note
-
-This project uses synthetic retail transaction data for educational and portfolio purposes. It does not contain real customer information.
-
-## Author
-
-**Rajat Gupta**
-
-GitHub: [Rajat6398](https://github.com/Rajat6398)
+This project uses synthetic retail transaction data for educational and portfolio purposes. No real customer information is used.
 
 Project Repository: [Retail Sales Analytics](https://github.com/Rajat6398/retail-sales-analytics)
