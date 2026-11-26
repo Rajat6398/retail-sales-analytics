@@ -17,31 +17,82 @@ st.set_page_config(
 )
 
 # -----------------------------
+# CUSTOM CSS
+# -----------------------------
+st.markdown("""
+<style>
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    div[data-testid="stMetric"] {
+        background-color: rgba(128,128,128,0.08);
+        border: 1px solid rgba(128,128,128,0.2);
+        padding: 16px;
+        border-radius: 10px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# -----------------------------
 # LOAD DATA
 # -----------------------------
 @st.cache_data
 def load_data():
     df = pd.read_csv(DATA)
 
+    required_columns = [
+        "order_date",
+        "net_sales",
+        "quantity",
+        "order_id",
+        "customer_id",
+        "city",
+        "category",
+        "sales_channel",
+        "product_name"
+    ]
+
+    missing = [
+        col for col in required_columns
+        if col not in df.columns
+    ]
+
+    if missing:
+        raise ValueError(f"Missing columns: {missing}")
+
     df["order_date"] = pd.to_datetime(
         df["order_date"], errors="coerce"
     )
+
     df["net_sales"] = pd.to_numeric(
         df["net_sales"], errors="coerce"
     )
+
     df["quantity"] = pd.to_numeric(
         df["quantity"], errors="coerce"
     )
 
     df = df.dropna(
-        subset=["order_date", "net_sales", "quantity"]
+        subset=[
+            "order_date",
+            "net_sales",
+            "quantity",
+            "order_id",
+            "customer_id"
+        ]
     )
 
     return df
 
 
+# -----------------------------
+# DASHBOARD HEADER
+# -----------------------------
 st.title("📊 Retail Sales Analytics Dashboard")
-st.caption("Business Performance | Interactive Sales Analysis")
+st.caption(
+    "Business Performance | Interactive Sales Analysis"
+)
 
 try:
     df = load_data()
@@ -55,6 +106,7 @@ try:
     # -----------------------------
     st.sidebar.header("Dashboard Filters")
 
+    # Date Filter
     min_date = df["order_date"].min().date()
     max_date = df["order_date"].max().date()
 
@@ -65,14 +117,38 @@ try:
         max_value=max_date
     )
 
+    if isinstance(date_range, (tuple, list)):
+        if len(date_range) == 2:
+            start_date, end_date = date_range
+        elif len(date_range) == 1:
+            start_date = end_date = date_range[0]
+        else:
+            start_date, end_date = min_date, max_date
+    else:
+        start_date = end_date = date_range
+
+    # City Filter
     cities = ["All"] + sorted(
         df["city"].dropna().unique().tolist()
     )
 
     selected_city = st.sidebar.selectbox(
-        "Select City", cities
+        "Select City",
+        cities
     )
 
+    # Category Filter
+    categories = sorted(
+        df["category"].dropna().unique().tolist()
+    )
+
+    selected_categories = st.sidebar.multiselect(
+        "Select Category",
+        categories,
+        default=categories
+    )
+
+    # Sales Channel Filter
     channels = sorted(
         df["sales_channel"].dropna().unique().tolist()
     )
@@ -86,16 +162,11 @@ try:
     # -----------------------------
     # APPLY FILTERS
     # -----------------------------
-    if isinstance(date_range, tuple) and len(date_range) == 2:
-        start_date, end_date = date_range
-    else:
-        start_date = date_range
-        end_date = date_range
-
     filtered = df[
         (df["order_date"].dt.date >= start_date) &
         (df["order_date"].dt.date <= end_date) &
-        (df["sales_channel"].isin(selected_channels))
+        (df["sales_channel"].isin(selected_channels)) &
+        (df["category"].isin(selected_categories))
     ].copy()
 
     if selected_city != "All":
@@ -104,7 +175,9 @@ try:
         ]
 
     if filtered.empty:
-        st.warning("No sales records match the selected filters.")
+        st.warning(
+            "No sales records match the selected filters."
+        )
         st.stop()
 
     # -----------------------------
@@ -115,21 +188,98 @@ try:
     customers = filtered["customer_id"].nunique()
     units = filtered["quantity"].sum()
 
+    aov = revenue / orders if orders else 0
+
     st.subheader("Business Performance Overview")
 
-    c1, c2, c3, c4 = st.columns(4)
+    c1, c2, c3, c4, c5 = st.columns(5)
 
-    c1.metric("Total Revenue", f"₹{revenue:,.2f}")
-    c2.metric("Total Orders", f"{orders:,}")
-    c3.metric("Customers", f"{customers:,}")
-    c4.metric("Units Sold", f"{units:,.0f}")
+    c1.metric(
+        "Total Revenue",
+        f"₹{revenue:,.2f}"
+    )
+
+    c2.metric(
+        "Total Orders",
+        f"{orders:,}"
+    )
+
+    c3.metric(
+        "Customers",
+        f"{customers:,}"
+    )
+
+    c4.metric(
+        "Units Sold",
+        f"{units:,.0f}"
+    )
+
+    c5.metric(
+        "Average Order Value",
+        f"₹{aov:,.2f}"
+    )
+
+    st.divider()
+
+    # -----------------------------
+    # BUSINESS INSIGHTS
+    # -----------------------------
+    st.subheader("💡 Business Insights")
+
+    city_sales = (
+        filtered.groupby("city")["net_sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    category_sales = (
+        filtered.groupby("category")["net_sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    product_sales = (
+        filtered.groupby("product_name")["net_sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    channel_sales = (
+        filtered.groupby("sales_channel")["net_sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    i1, i2 = st.columns(2)
+
+    with i1:
+        st.info(
+            f"🏙️ **Top City:** {city_sales.index[0]} "
+            f"(₹{city_sales.iloc[0]:,.2f})"
+        )
+
+        st.info(
+            f"📦 **Top Category:** {category_sales.index[0]} "
+            f"(₹{category_sales.iloc[0]:,.2f})"
+        )
+
+    with i2:
+        st.info(
+            f"🏆 **Top Product:** {product_sales.index[0]} "
+            f"(₹{product_sales.iloc[0]:,.2f})"
+        )
+
+        st.info(
+            f"🛒 **Top Sales Channel:** {channel_sales.index[0]} "
+            f"(₹{channel_sales.iloc[0]:,.2f})"
+        )
 
     st.divider()
 
     # -----------------------------
     # MONTHLY REVENUE
     # -----------------------------
-    st.subheader("Monthly Revenue")
+    st.subheader("📈 Monthly Revenue")
 
     monthly = (
         filtered.groupby(
@@ -150,10 +300,22 @@ try:
         labels={
             "Month": "Month",
             "net_sales": "Revenue (₹)"
+        },
+        hover_data={
+            "net_sales": ":,.2f"
         }
     )
 
-    st.plotly_chart(fig1, use_container_width=True)
+    fig1.update_layout(
+        xaxis_title="Month",
+        yaxis_title="Revenue (₹)",
+        hovermode="x unified"
+    )
+
+    st.plotly_chart(
+        fig1,
+        use_container_width=True
+    )
 
     # -----------------------------
     # CATEGORY AND CITY
@@ -161,7 +323,7 @@ try:
     left, right = st.columns(2)
 
     with left:
-        st.subheader("Category Performance")
+        st.subheader("📦 Category Performance")
 
         category = (
             filtered.groupby("category")["net_sales"]
@@ -173,14 +335,27 @@ try:
             category,
             names="category",
             values="net_sales",
-            hole=0.4,
+            hole=0.45,
             title="Revenue by Category"
         )
 
-        st.plotly_chart(fig2, use_container_width=True)
+        fig2.update_traces(
+            textinfo="percent+label",
+            hovertemplate=(
+                "%{label}<br>"
+                "Revenue: ₹%{value:,.2f}<br>"
+                "Share: %{percent}"
+                "<extra></extra>"
+            )
+        )
+
+        st.plotly_chart(
+            fig2,
+            use_container_width=True
+        )
 
     with right:
-        st.subheader("City Performance")
+        st.subheader("🏙️ City Performance")
 
         city = (
             filtered.groupby("city")["net_sales"]
@@ -198,15 +373,21 @@ try:
             labels={
                 "city": "City",
                 "net_sales": "Revenue (₹)"
+            },
+            hover_data={
+                "net_sales": ":,.2f"
             }
         )
 
-        st.plotly_chart(fig3, use_container_width=True)
+        st.plotly_chart(
+            fig3,
+            use_container_width=True
+        )
 
     # -----------------------------
     # SALES CHANNEL
     # -----------------------------
-    st.subheader("Sales Channel Performance")
+    st.subheader("🛒 Sales Channel Performance")
 
     channel = (
         filtered.groupby("sales_channel")["net_sales"]
@@ -218,16 +399,29 @@ try:
         channel,
         names="sales_channel",
         values="net_sales",
-        hole=0.4,
+        hole=0.45,
         title="Online vs Retail Store"
     )
 
-    st.plotly_chart(fig4, use_container_width=True)
+    fig4.update_traces(
+        textinfo="percent+label",
+        hovertemplate=(
+            "%{label}<br>"
+            "Revenue: ₹%{value:,.2f}<br>"
+            "Share: %{percent}"
+            "<extra></extra>"
+        )
+    )
+
+    st.plotly_chart(
+        fig4,
+        use_container_width=True
+    )
 
     # -----------------------------
     # TOP 10 PRODUCTS
     # -----------------------------
-    st.subheader("Top 10 Products")
+    st.subheader("🏆 Top 10 Products")
 
     products = (
         filtered.groupby("product_name")["net_sales"]
@@ -247,21 +441,30 @@ try:
         labels={
             "product_name": "Product",
             "net_sales": "Revenue (₹)"
+        },
+        hover_data={
+            "net_sales": ":,.2f"
         }
     )
 
-    st.plotly_chart(fig5, use_container_width=True)
+    st.plotly_chart(
+        fig5,
+        use_container_width=True
+    )
 
     # -----------------------------
     # DOWNLOAD FILTERED DATA
     # -----------------------------
     st.divider()
-    st.subheader("Download Sales Report")
 
-    csv_data = filtered.to_csv(index=False).encode("utf-8")
+    st.subheader("📥 Download Sales Report")
+
+    csv_data = filtered.to_csv(
+        index=False
+    ).encode("utf-8")
 
     st.download_button(
-        label="📥 Download Filtered Sales CSV",
+        label="Download Filtered Sales CSV",
         data=csv_data,
         file_name="filtered_sales_report.csv",
         mime="text/csv"
@@ -270,15 +473,22 @@ try:
     # -----------------------------
     # SALES DATA TABLE
     # -----------------------------
-    st.subheader("Sales Data")
+    st.subheader("📋 Sales Data")
 
-    st.caption(f"Showing {len(filtered)} filtered records.")
+    st.caption(
+        f"Showing {len(filtered)} filtered records."
+    )
 
     st.dataframe(
         filtered,
         use_container_width=True,
         hide_index=True
     )
+
+    # -----------------------------
+    # FOOTER
+    # -----------------------------
+    st.divider()
 
     st.caption(
         "Built with Python | Pandas | Streamlit | Plotly"
