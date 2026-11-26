@@ -107,16 +107,12 @@ retail-sales-analytics/
 │
 ├── app.py
 ├── requirements.txt
-│
 ├── data/
 │   ├── sales_raw.csv
 │   └── sales_clean.csv
-│
 ├── src/
 │   └── run_analysis.py
-│
 ├── reports/
-│
 └── README.md
 ```
 
@@ -167,8 +163,6 @@ streamlit run app.py
 The dashboard will open in your browser.
 
 ## 💡 Key Learning Outcomes
-
-Through this project, I gained practical experience in:
 
 - Data cleaning and preprocessing using Pandas
 - Working with databases using SQLite
