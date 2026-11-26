@@ -28,7 +28,7 @@ The main objective is to understand sales performance, customer behavior, produc
 
 ## 📊 Dashboard Features
 
-The interactive dashboard provides the following KPIs:
+### Key Performance Indicators (KPIs)
 
 - Total Revenue
 - Total Orders
@@ -117,9 +117,6 @@ retail-sales-analytics/
 │
 ├── reports/
 │
-├── screenshots/
-│   └── dashboard.png
-│
 └── README.md
 ```
 
@@ -169,16 +166,12 @@ streamlit run app.py
 
 The dashboard will open in your browser.
 
-## 📸 Dashboard Preview
-
-![Retail Sales Analytics Dashboard](screenshots/dashboard.png)
-
 ## 💡 Key Learning Outcomes
 
 Through this project, I gained practical experience in:
 
 - Data cleaning and preprocessing using Pandas
-- Working with relational databases using SQLite
+- Working with databases using SQLite
 - Writing SQL queries for business analysis
 - Building interactive dashboards using Streamlit
 - Creating visualizations using Plotly
